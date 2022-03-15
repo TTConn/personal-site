@@ -1,0 +1,190 @@
+/**** Tag Selectors ***********************************************************/
+a {
+    color: #F1F6F9;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #9BA4B4;
+}
+
+body {
+    background-color: #F1F6F9;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+h1 {
+    color: #F1F6F9;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+}
+
+h2 {
+    color: #14274E;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #14274E;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+hr {
+    border: dotted #9BA4B4 6px;
+    border-bottom: none;
+    margin: 100px auto;
+    width: 4%;
+}
+
+P {
+    color: #14274E;
+    font-weight: normal;
+    line-height: 2;
+}
+
+/**** Class Selectors *********************************************************/
+
+
+/**** Containers **************************************************************/
+.top-container {
+    background-color: #394867;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.middle-container {
+    margin: 100px auto;
+}
+
+.bottom-container {
+    background-color: #394867;
+    padding: 50px 0 20px;
+}
+
+/**** Containers--Skill-row ***************************************************/
+
+.skill-row {
+    margin: 100px auto 100px auto;
+    text-align: left;
+    width: 50%;
+}
+
+.skill-row-2 {
+    margin: 100px auto 100px auto;
+    text-align: center;
+    width: 50%;
+}
+
+/**** Portfolio ***************************************************************/
+
+.portfolio-table {
+    border-spacing: 15px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.portfolio-anchor {
+    color: #14274E;
+}
+
+th {
+    color: #14274E;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.0rem;
+    font-weight: bold;
+}
+
+/**** Images ******************************************************************/
+
+.js-code {
+    width: 25%;
+    position: relative;
+    float: left;
+    margin-right: 30px;
+}
+
+.me-top-of-rock {
+    width: 15%;
+    position: relative;
+}
+
+.kw-sunset {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    position: relative;
+}
+
+.lola {
+    width: 25%;
+    position: relative;
+    float: right;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+
+/**** Text ********************************************************************/
+
+.intro {
+    margin: auto;
+    width: 30%;
+}
+
+.copyright {
+    color: #F1F6F9;
+    font-size: .75rem;
+    padding: 20px 0px;
+}
+
+.title {
+    color: #F1F6F9;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+.contact-message {
+    margin: 40px auto 60px;
+    width: 40%;
+}
+
+/**** Button ******************************************************************/
+
+.btn {
+    background: #14274E;
+    background-image: -webkit-linear-gradient(top, #14274E, #14274E);
+    background-image: -moz-linear-gradient(top, #14274E, #14274E);
+    background-image: -ms-linear-gradient(top, #14274E, #14274E);
+    background-image: -o-linear-gradient(top, #14274E, #14274E);
+    background-image: linear-gradient(to bottom, #14274E, #14274E);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #F1F6F9;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #9BA4B4;
+    background-image: -webkit-linear-gradient(top, #9BA4B4, #9BA4B4);
+    background-image: -moz-linear-gradient(top, #9BA4B4, #9BA4B4);
+    background-image: -ms-linear-gradient(top, #9BA4B4, #9BA4B4);
+    background-image: -o-linear-gradient(top, #9BA4B4, #9BA4B4);
+    background-image: linear-gradient(to bottom, #9BA4B4, #9BA4B4);
+    color: #F1F6F9;
+    text-decoration: none;
+}
